@@ -3,4 +3,9 @@ const onLogout = () => {
   window.location.href = "/";
 };
 
-lpTag.section = ["Home Page"];
+lpTag.sdes.push({
+  type: "ctmrinfo", //MANDATORY
+  info: {
+    cstatus: `Visitor Page :${document.title}`, //CUSTOMER LIFECYCLE STATUS. FROM PRE-DEFINED LIST
+  },
+});

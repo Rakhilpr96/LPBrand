@@ -1,8 +1,7 @@
-const cartPrice = 120;
+const cartPrice = 799;
 
 document.getElementById("cart-price").innerHTML = cartPrice;
 
-lpTag.sdes = lpTag.sdes || [];
 lpTag.sdes.push({
   type: "cart", //MANDATORY
   total: cartPrice, //TOTAL VALUE OF THE CART AFTER DISCOUNT
@@ -11,10 +10,10 @@ lpTag.sdes.push({
   products: [
     {
       product: {
-        name: "prod1", //PRODUCT NAME
-        category: "category", //PRODUCT CATEGORY NAME
-        sku: "sku", //PRODUCT SKU OR UNIQUE IDENTIFIER
-        price: 120, //SINGLE PRODUCT PRICE
+        name: "iPhone13", //PRODUCT NAME
+        category: "Mobiles", //PRODUCT CATEGORY NAME
+        sku: "AHNJK2453JDSJ", //PRODUCT SKU OR UNIQUE IDENTIFIER
+        price: 799, //SINGLE PRODUCT PRICE
       },
       quantity: 1, //NUMBER OF PRODUCTS
     },
