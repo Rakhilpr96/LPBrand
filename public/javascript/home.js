@@ -1,6 +1,6 @@
 const onLogout = () => {
   sessionStorage.removeItem("userdata");
-  window.location.href = "/login";
+  window.location.href = "/LPBrand";
 };
 
 lpTag.sdes.push({
